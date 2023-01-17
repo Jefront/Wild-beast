@@ -1,0 +1,20 @@
+.anuncios {
+    background: #fafbfc;
+    display: grid;
+    align-content: start;
+    padding: 30px;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.footer {
+    background: linear-gradient(135deg, #8c4aef, #ae7afa);
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 1.125rem;
+    text-align: center;
+}
